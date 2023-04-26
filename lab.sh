@@ -20,7 +20,7 @@ echo "Данная программа предоставляет управле�
 			info = "Введите имя для нового файла"
 			while :
 			do
-				read -p "${info}"fileName
+				read -p "${info}" fileName
 				if [ -n $fileName ]
 					then break
 				else
